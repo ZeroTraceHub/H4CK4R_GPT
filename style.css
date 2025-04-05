@@ -1,0 +1,33 @@
+body {
+  background-color: #000;
+  color: #0f0;
+  font-family: 'Courier New', Courier, monospace;
+  padding: 20px;
+}
+
+.terminal {
+  max-width: 800px;
+  margin: auto;
+  border: 1px solid #0f0;
+  padding: 20px;
+  border-radius: 10px;
+  background: #000;
+}
+
+.output {
+  white-space: pre-wrap;
+  margin-bottom: 10px;
+  min-height: 400px;
+  overflow-y: auto;
+  max-height: 500px;
+}
+
+input {
+  width: 100%;
+  background: black;
+  color: #0f0;
+  border: none;
+  border-top: 1px solid #0f0;
+  padding: 10px;
+  font-family: 'Courier New', Courier, monospace;
+}
